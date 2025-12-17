@@ -10,7 +10,7 @@ Selamat datang di repository **After Class Fest**! Proyek ini merupakan website 
 
 ---
 
-## 👥 Tim Pengembang
+## Tim Pengembang
 
 | No | Nama | NIM | Role |
 |----|------|-----|------|
@@ -21,18 +21,18 @@ Selamat datang di repository **After Class Fest**! Proyek ini merupakan website 
 
 ---
 
-## 📋 Deskripsi Proyek
+## Deskripsi Proyek
 
 **After Class Fest** adalah platform berbasis web yang memudahkan pengguna untuk menemukan dan membeli tiket konser serta acara musik favorit mereka. Website ini dibangun dengan fokus pada:
 
-- ✨ **User Experience** yang intuitif dan mudah digunakan
-- 🎨 **Design Modern** dengan skema warna putih dan biru yang bersih
-- 📱 **Fully Responsive** - kompatibel di semua perangkat
-- ⚡ **Performance** yang cepat dan ringan
+- **User Experience** yang intuitif dan mudah digunakan
+- **Design Modern** dengan skema warna putih dan biru yang bersih
+- **Fully Responsive** - kompatibel di semua perangkat
+- **Performance** yang cepat dan ringan
 
 ---
 
-## 🚀 Fitur Utama
+## Fitur Utama
 
 ### 1. **Event Catalog**
 - Menampilkan daftar konser dan acara musik
@@ -62,7 +62,7 @@ Selamat datang di repository **After Class Fest**! Proyek ini merupakan website 
 
 ---
 
-## 🛠️ Teknologi yang Digunakan
+## Teknologi yang Digunakan
 
 | Teknologi | Versi | Keterangan |
 |-----------|-------|------------|
@@ -74,35 +74,8 @@ Selamat datang di repository **After Class Fest**! Proyek ini merupakan website 
 
 ---
 
-## 📁 Struktur Folder
 
-```
-after-class-fest/
-│
-├── index.html              # Main HTML file
-├── README.md              # Dokumentasi proyek
-│
-├── assets/
-│   ├── css/
-│   │   └── style.css      # Stylesheet utama
-│   │
-│   └── image/
-│       ├── bear-logo.png  # Logo website
-│       ├── bocah2kosong.png
-│       ├── hilsong.jpg
-│       ├── languange.jpg
-│       ├── skr.jpg
-│       ├── surgafest.png
-│       └── wanpis.png
-│
-└── screenshots/           # Screenshot untuk dokumentasi
-    ├── desktop-view.png
-    └── mobile-view.png
-```
-
----
-
-## 🎨 Color Palette
+## Color Palette
 
 | Warna | Hex Code | Penggunaan |
 |-------|----------|------------|
@@ -115,7 +88,7 @@ after-class-fest/
 
 ---
 
-## 💻 Cara Instalasi & Penggunaan
+## Cara Instalasi
 
 ### 1. Clone Repository
 ```bash
@@ -126,7 +99,6 @@ cd web-konser
 ### 2. Buka di Browser
 ```bash
 # Langsung buka file index.html di browser
-# Atau gunakan Live Server di VS Code
 ```
 
 ### 3. Edit & Customize
@@ -136,7 +108,7 @@ cd web-konser
 
 ---
 
-## 📱 Responsive Breakpoints
+## Responsive Breakpoints
 
 | Device | Breakpoint | Layout |
 |--------|-----------|--------|
@@ -146,7 +118,7 @@ cd web-konser
 
 ---
 
-## 🔧 Customization Guide
+## Customization Guide
 
 ### Menambah Event Baru
 ```html
@@ -178,14 +150,14 @@ background: linear-gradient(135deg, #YOUR_COLOR1 0%, #YOUR_COLOR2 100%);
 
 ---
 
-## 🐛 Known Issues & Future Improvements
+## Issues & Improvements
 
-### Known Issues
+### Issues
 - [ ] Button "Beli Tiket" belum terhubung ke sistem pembayaran
 - [ ] Belum ada sistem search/filter event
 - [ ] Belum ada halaman detail event
 
-### Future Improvements
+### Improvements
 - [ ] Integrasi dengan payment gateway
 - [ ] Sistem login/register user
 - [ ] Fitur search dan filter event
@@ -196,7 +168,7 @@ background: linear-gradient(135deg, #YOUR_COLOR1 0%, #YOUR_COLOR2 100%);
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 ### Desktop View
 ![Desktop Screenshot](screenshots/desktop-view.png)
@@ -206,13 +178,13 @@ background: linear-gradient(135deg, #YOUR_COLOR1 0%, #YOUR_COLOR2 100%);
 
 ---
 
-## 📝 License
+## License
 
 Proyek ini dibuat untuk keperluan edukasi dan pembelajaran.
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **Icons8** untuk menyediakan icon gratis
 - **Google Fonts** untuk typography
@@ -221,7 +193,7 @@ Proyek ini dibuat untuk keperluan edukasi dan pembelajaran.
 
 ---
 
-## 📞 Contact & Support
+## Contact & Support
 
 Untuk pertanyaan, saran, atau kontribusi:
 
@@ -230,8 +202,6 @@ Untuk pertanyaan, saran, atau kontribusi:
 - 📧 **Email**: info@afterclassfest.com
 
 ---
-
-## 🌟 Show Your Support
 
 Jika project ini bermanfaat, jangan lupa untuk memberikan ⭐ star pada repository ini!
 
