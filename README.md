@@ -1,4 +1,4 @@
-# 🎵 After Class Fest - Event Ticketing Website
+# After Class Fest - Event Ticketing Website
 
 ![Desktop View](screenshots/desktop-view.png)
 
