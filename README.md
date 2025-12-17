@@ -188,8 +188,6 @@ Proyek ini dibuat untuk keperluan edukasi dan pembelajaran.
 
 - **Icons8** untuk menyediakan icon gratis
 - **Google Fonts** untuk typography
-- **Anthropic Claude** untuk bantuan development
-- **Dosen Pembimbing** atas bimbingannya
 
 ---
 
