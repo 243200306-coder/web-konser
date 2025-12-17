@@ -150,21 +150,10 @@ background: linear-gradient(135deg, #YOUR_COLOR1 0%, #YOUR_COLOR2 100%);
 
 ---
 
-## Issues & Improvements
-
 ### Issues
-- [ ] Button "Beli Tiket" belum terhubung ke sistem pembayaran
-- [ ] Belum ada sistem search/filter event
-- [ ] Belum ada halaman detail event
-
-### Improvements
-- [ ] Integrasi dengan payment gateway
-- [ ] Sistem login/register user
-- [ ] Fitur search dan filter event
-- [ ] Halaman detail event
-- [ ] Shopping cart functionality
-- [ ] Email confirmation untuk pembelian tiket
-- [ ] Admin dashboard untuk manage events
+- Button "Beli Tiket" belum terhubung ke sistem pembayaran
+- Belum ada sistem search/filter event
+- Belum ada halaman detail event
 
 ---
 
@@ -175,12 +164,6 @@ background: linear-gradient(135deg, #YOUR_COLOR1 0%, #YOUR_COLOR2 100%);
 
 ### Mobile View
 ![Mobile Screenshot](screenshots/mobile-view.png)
-
----
-
-## License
-
-Proyek ini dibuat untuk keperluan edukasi dan pembelajaran.
 
 ---
 
