@@ -151,7 +151,7 @@ background: linear-gradient(135deg, #YOUR_COLOR1 0%, #YOUR_COLOR2 100%);
 ---
 
 ### Issues
-- Button "Beli Tiket" belum terhubung ke sistem pembayaran
+- Button "Beli Tiket"
 - Belum ada sistem search/filter event
 - Belum ada halaman detail event
 
