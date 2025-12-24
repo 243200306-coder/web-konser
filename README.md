@@ -1,6 +1,6 @@
 # After Class Fest - Event Ticketing Website
 
-![Desktop View](screenshots/desktop-view.png)
+![Desktop View](screenshots/landing.png)
 
 ---
 
@@ -151,19 +151,23 @@ background: linear-gradient(135deg, #YOUR_COLOR1 0%, #YOUR_COLOR2 100%);
 ---
 
 ### Issues
-- Button "Beli Tiket"
 - Belum ada sistem search/filter event
-- Belum ada halaman detail event
 
 ---
 
 ## Screenshots
 
-### Desktop View
-![Desktop Screenshot](screenshots/desktop-view.png)
+### Landing Page
+![Landing Page](screenshots/landing.png)
 
-### Mobile View
-![Mobile Screenshot](screenshots/mobile-view.png)
+### About Page
+![About Page](screenshots/about.png)
+
+### FAQ Page
+![FAQ Page](screenshots/faq.png)
+
+### Buy Page
+![Buy Page](screenshots/buy.png)
 
 ---
 
