@@ -1,4 +1,3 @@
-/* About Page Specific Styles */
 
 .page-header {
   text-align: center;
@@ -18,258 +17,99 @@
   line-height: 1.2;
 }
 
-.about-container {
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
-/* Value Cards */
-.value-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 24px;
-  margin-bottom: 60px;
-}
-
-.value-card {
-  background: white;
-  padding: 0;
-  border-radius: 22px;
-  text-align: center;
-  transition: transform 0.3s;
-  overflow: hidden;
-}
-
-.value-card:hover {
-  transform: translateY(-8px);
-}
-
-.value-icon {
-  width: 100%;
-  height: 180px;
-  overflow: hidden;
-  margin: 0;
-}
-
-.value-icon img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.value-card h3 {
-  font-size: 22px;
-  color: #1976d2;
-  margin: 20px 24px 12px;
-}
-
-.value-card p {
-  font-size: 15px;
+.page-header-content p {
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #424242;
   line-height: 1.6;
-  padding: 0 24px 24px;
-  color: #616161;
 }
 
-/* Stats Section */
-.stats-section {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 24px;
-  margin-bottom: 60px;
-  max-width: 900px;
-  margin-left: auto;
-  margin-right: auto;
+.container {  display: grid;
+  grid-template-columns: 1.3fr 0.7fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  padding: 0 80px;
 }
 
-.stat-item {
-  position: relative;
-  text-align: center;
-  color: white;
-  font-family: "Segoe UI", sans-serif;
-  background: url("../image/about/bg-stats/puas.jpg");
-  background-size: cover;
-  background-position: center;
-  border-radius: 24px;
-  padding: 10px 40px;
-  overflow: hidden;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+.deskripsi { grid-area: 1 / 1 / 2 / 2; }
+
+.deskripsi p {
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  line-height: 1.5;
+  color: #424242;
 }
 
-.stat-item::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: #1976d2b2;
-  z-index: 1;
+.stats h1{
+  font-size: 35px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5;
+  color: #1976d2;
 }
 
-.stat-number {
-  position: relative;
-  z-index: 2;
-  font-size: 52px;
-  font-weight: 700;
-  margin-bottom: 10px;
-  letter-spacing: 2px;
-  line-height: 1;
-  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+.stats p{
+  font-size: 18px;
+  font-style: italic;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5;
+  color: #424242;
 }
-
-.stat-label {
-  position: relative;
-  z-index: 2;
-  font-size: 15px;
-  font-weight: 500;
-  line-height: 1.4;
-  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
-  opacity: 0.98;
-}
-
-/* Team Section */
-.team-section {
-  text-align: center;
-  margin-bottom: 60px;
-}
-
-.team-section h2 {
-  font-size: 32px;
-  color: #212121;
-  margin-bottom: 12px;
-}
-
-.team-intro {
-  font-size: 16px;
-  color: #616161;
-  margin-bottom: 40px;
-}
-
-.team-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 24px;
-  max-width: 1100px;
-  margin: 0 auto;
-}
-
-.team-member {
-  position: relative;
-  width: 100%;
-  height: 350px;
-  border-radius: 20px;
-  overflow: hidden;
-  cursor: pointer;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
-
-.team-member.team-offset {
+.stats { 
+  grid-area: 1 / 2 / 2 / 3;
+  margin-left: 50px;
   margin-top: 40px;
+  padding-left: 50px;
+  padding-bottom: 10px;
+  border-left: 3px solid #1976d2;
+  align-self: start;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.team-member img {
+
+.gambarr { 
+  grid-area: 2 / 1 / 3 / 3;
+}
+
+.container-gambar {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 15px;
+  grid-template-areas:
+    "hilsong surgafest wanpis"
+    "hilsong languange skr";
+  height: 500px;
+}
+
+.hilsong { 
+  grid-area: hilsong;
+}
+
+.surgafest { 
+  grid-area: surgafest;
+}
+
+.wanpis { 
+  grid-area: wanpis;
+}
+
+.languange { 
+  grid-area: languange;
+}
+
+.skr { 
+  grid-area: skr;
+}
+
+.container-gambar > div {
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.container-gambar img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transition: transform 0.4s ease;
-}
-
-.team-member:hover img {
-  transform: scale(1.1);
-}
-
-.member-info {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: #1565c0bb;
-  padding: 20px;
-  transform: translateY(100%);
-  transition: transform 0.4s ease;
-}
-
-.team-member:hover .member-info {
-  transform: translateY(0);
-}
-
-.member-info h4 {
-  font-size: 18px;
-  color: white;
-  margin-bottom: 6px;
-  font-weight: 600;
-}
-
-.member-info p {
-  font-size: 14px;
-  color: rgba(255, 255, 255, 0.9);
-  font-weight: 400;
-}
-
-/* Responsive */
-@media (max-width: 600px) {
- .content-section {
-      padding: 0 42px;
-    }
-  .page-header {
-    margin: 40px 0 30px;
-  }
-
-  .page-header-content h1 {
-    font-size: 32px;
-  }
-
-  .page-header-content p {
-    font-size: 15px;
-  }
-
-  .about-container {
-    padding: 0 16px;
-  }
-
-  .value-card p {
-    font-size: 14px;
-  }
-
-  .stats-section {
-    gap: 12px;
-  }
-
-  .stat-item {
-    padding: 24px 16px;
-  }
-
-  .stat-number {
-    font-size: 29px;
-  }
-
-  .stat-label {
-    font-size: 13px;
-  }
-
-  .team-section h2 {
-    font-size: 24px;
-  }
-
-  .team-intro {
-    font-size: 15px;
-  }
-
-  .team-member {
-    height: 250px;
-  }
-
-  .member-info {
-    padding: 6px;
-  }
-
-  .member-info h4 {
-    font-size: 13px;
-  }
-
-  .member-info p {
-    font-size: 9px;
-  }
 }
