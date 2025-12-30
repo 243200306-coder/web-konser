@@ -1,90 +1,90 @@
 
 .page-header {
-  text-align: center;
+  text-align: center; 
   margin: 60px auto 50px;
-  max-width: 800px;
-  padding: 0 20px;
+  max-width: 800px; /*lebar halaman header*/
+  padding: 0 20px; /*ruang dalam kiri kanan*/
 }
 
-.page-header-content h1 {
-  font-size: 48px;
-  font-weight: 700;
-  background: linear-gradient(135deg, #1976d2 0%, #1565c0 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  margin-bottom: 20px;
-  line-height: 1.2;
+.page-header-content h1 { /*Tentang Kami*/
+  font-size: 48px; /*ukuran font*/
+  font-weight: 700; /*ketebalan font*/
+  background: linear-gradient(135deg, #1976d2 0%, #1565c0 100%); /*warna gradasi*/
+  -webkit-background-clip: text; /*efek klip latar belakang*/
+  -webkit-text-fill-color: transparent; /*isi teks transparan*/
+  background-clip: text; 
+  margin-bottom: 20px; /*jarak bawah*/
+  line-height: 1.2; /*ketinggian baris*/
 }
 
-.page-header-content p {
+.page-header-content p { /*paragraf tentang kami*/
   font-size: 20px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #424242;
-  line-height: 1.6;
+  line-height: 1.6; /*jarak antar baris*/
 }
 
-.container {  display: grid;
-  grid-template-columns: 1.3fr 0.7fr;
-  grid-template-rows: 1fr 1fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  padding: 0 80px;
+.container {  display: grid; /*grid layout antara header&footer*/
+  grid-template-columns: 1.3fr 0.7fr; /*lebar kolom (kolom kiri lebih lebar)*/  
+  grid-template-rows: 1fr 1fr; /*tinggi baris*/
+  gap: 0px 0px; /*jarak antar grid*/
+  grid-auto-flow: row;/*mengisi grid berdasarkan baris*/
+  padding: 0 80px; 
 }
 
-.deskripsi { grid-area: 1 / 1 / 2 / 2; }
+.deskripsi { grid-area: 1 / 1 / 2 / 2; } /*posisi deskripsi (baris 1, kolom 1)*/
 
-.deskripsi p {
-  font-size: 20px;
+.deskripsi p { /*paragraf deskripsi*/
+  font-size: 20px; 
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-style: italic;
   line-height: 1.5;
   color: #424242;
 }
 
-.stats h1{
+.stats h1{ /*angka statistik*/
   font-size: 35px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5;
   color: #1976d2;
 }
 
-.stats p{
+.stats p{ /*teks dari angka statistik*/
   font-size: 18px;
   font-style: italic;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5;
   color: #424242;
 }
-.stats { 
-  grid-area: 1 / 2 / 2 / 3;
-  margin-left: 50px;
-  margin-top: 40px;
-  padding-left: 50px;
-  padding-bottom: 10px;
-  border-left: 3px solid #1976d2;
-  align-self: start;
+.stats { /*posisi statistik (baris 1, kolom 2)*/
+  grid-area: 1 / 2 / 2 / 3; /*baris 1, kolom 2*/
+  margin-left: 50px; /*jarak kiri*/
+  margin-top: 40px; /*jarak atas*/
+  padding-left: 50px; /*jarak dalam kiri*/
+  padding-bottom: 10px; /*jarak dalam bawah*/
+  border-left: 3px solid #1976d2; /*garis vertikal di kiri*/ 
+  align-self: start; /*posisi ke atas*/
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
-.gambarr { 
+.gambarr { /*posisi gambar (baris 2, kolom 1-2)*/
   grid-area: 2 / 1 / 3 / 3;
 }
 
-.container-gambar {
-  display: grid;
-  grid-template-columns: 2fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  gap: 15px;
-  grid-template-areas:
-    "hilsong surgafest wanpis"
-    "hilsong languange skr";
-  height: 500px;
+.container-gambar { /*wadah gambar*/
+  display: grid; /*grid layout untuk gambar*/
+  grid-template-columns: 2fr 1fr 1fr; /*kolom kiri 2x lebih lebar di banding kolom kanan*/ 
+  grid-template-rows: 1fr 1fr; /*2 baris dengan tinggi yang sama*/
+  gap: 15px; /*jarak antar grid gambar*/
+  grid-template-areas: /*penempatan area gambar*/
+    "hilsong surgafest wanpis" /*baris 1 isinya hilsong,surgafest,wanpis*/
+    "hilsong languange skr"; /*baris 2 isinya hilsong,languange,skr*/
+  height: 500px; /*tinggi wadah gambar*/
 }
 
 .hilsong { 
-  grid-area: hilsong;
+  grid-area: hilsong; /*area gambar hilsong*/
 }
 
 .surgafest { 
@@ -103,13 +103,13 @@
   grid-area: skr;
 }
 
-.container-gambar > div {
-  overflow: hidden;
-  border-radius: 8px;
+.container-gambar > div { /*setiap div di dalam wadah gambar*/
+  overflow: hidden; /*memotong bagian gambar yang keluar dari wadah*/
+  border-radius: 8px; /*sudut membulat*/
 }
 
-.container-gambar img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+.container-gambar img { /*gaya untuk gambar*/
+  width: 100%; /*lebar penuh wadah*/
+  height: 100%; /*tinggi penuh wadah*/
+  object-fit: cover; /*memastikan gambar menutupi wadah tanpa merusak rasio aspek*/
 }
